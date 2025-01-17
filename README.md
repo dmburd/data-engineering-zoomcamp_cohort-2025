@@ -1,0 +1,1 @@
+Homework and the final project for the [cohort 2025](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/cohorts/2025) of [data-engineering-zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp).
