@@ -94,11 +94,9 @@ WHERE lpep_pickup_datetime >= '2019-10-01'
 
 Data output:
 
-```csv
 | from_0_to_1_mile | from_1_to_3_miles | from_3_to_7_miles | from_7_to_10_miles | from_10_to_inf_miles |
 |------------------|-------------------|-------------------|--------------------|----------------------|
 | 104802           | 198924            | 109603            | 27678              | 35189                |
-```
 
 
 ## Question 4. Longest trip for each day
@@ -116,11 +114,9 @@ WHERE trip_distance = (
 
 Data output:
 
-```csv
 | date |
 |------|
 | 2019-10-31 |
-```
 
 
 ## Question 5. Three biggest pickup zones
@@ -142,13 +138,11 @@ WHERE "LocationID" IN (SELECT * FROM biggest_pickup_loc_ids);
 
 Data output:
 
-```csv
 | Zone |
 |------|
 | East Harlem North |
 | East Harlem South |
 | Morningside Heights |
-```
 
 ## Question 6. Largest tip
 
@@ -171,9 +165,7 @@ LIMIT 1;
 
 Data output:
 
-```csv
 | Zone |
 |------|
 | JFK Airport |
-```
 
