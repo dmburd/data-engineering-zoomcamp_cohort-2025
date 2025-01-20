@@ -1,6 +1,6 @@
 # Module 1 Homework: Docker & SQL
 
-Shell or SQL commands necessary for answering the questions.
+Shell commands or SQL queries necessary for answering the questions.
 
 
 ## Question 1. Understanding docker first run
