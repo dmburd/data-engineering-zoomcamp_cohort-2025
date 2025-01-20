@@ -20,38 +20,6 @@ pip 24.3.1 from /usr/local/lib/python3.12/site-packages/pip (python 3.12)
 ```
 
 
-## Question 2. Understanding Docker networking and docker-compose
-
-Commands:
-
-```bash
-# the given 'docker-compose.yaml' is used
-docker compose up -d
-```
-
-Output:
-
-```plaintext
-[+] Running 2/2
- ✔ Container pgadmin   Started      0.4s 
- ✔ Container postgres  Started      0.4s 
-```
-
-Command:
-
-```bash
-pgcli -h localhost -p 5433 -u postgres --no-password -d ny_taxi
-```
-
-Output:
-
-```plaintext
-Server: PostgreSQL 17.2
-Version: 4.1.0
-Home: http://pgcli.com
-postgres@localhost:ny_taxi>
-```
-
 ## Question 3. Trip Segmentation Count
 
 Query:
