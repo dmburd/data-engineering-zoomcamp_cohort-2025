@@ -85,12 +85,12 @@ WHERE tpep_dropoff_datetime BETWEEN '2024-03-01' AND '2024-03-15';
 -- ^ This query will process 26.84 MB when run
 ```
 
-[comment] <> Question 7. Where is the data stored in the External Table you created?
-[comment] <> Answer: GCP Bucket.
+<!-- Question 7. Where is the data stored in the External Table you created? -->
+<!-- Answer: GCP Bucket. -->
 
 
-[comment] <> Question 8. It is best practice in Big Query to always cluster your data.
-[comment] <> Answer: False.
+<!-- Question 8. It is best practice in Big Query to always cluster your data. -->
+<!-- Answer: False. -->
 
 
 ## Question 9. SELECT COUNT(*) FROM the partitioned and clustered table.
