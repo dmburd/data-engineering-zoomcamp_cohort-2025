@@ -7,7 +7,7 @@ Shell commands or SQL queries necessary for answering the questions.
 
 ```sql
 SELECT COUNT(*) AS num_records
-FROM `taxi-rides-ny.nytaxi.yellow_tripdata_2024`;
+FROM `taxi-rides-ny.nytaxi.external_yellow_tripdata_2024`;
 ```
 
 | num_records |
